@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 .col-sm-12.text-center p{
@@ -834,7 +834,8 @@ h4 {
 }
 
 .col-xs-12.col-md-8.col-md-offset-2.text-center p span{
-    font-size: 0.9em;
+    font-size: 0.9
+    em;
     font-style: italic;
     font-weight: bold;
 }

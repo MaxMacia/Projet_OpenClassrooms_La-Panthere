@@ -133,7 +133,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #000;
 }
 
 .d-bloc .a-btn:hover,
@@ -692,7 +692,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -736,7 +736,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .portfolio-thumb {
@@ -777,19 +777,25 @@ h4 {
 .tc-white {
     color: #F3976C!important;
 }
+.text-center.hero-bloc-text.tc-white.tc-black{
+    color: #000!important;
+}
+.text-center.mg-lg.tc-white.tight-width-whitespace{
+    color: #000!important;
+}
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #000!important;
 }
 
 .ltc-white:hover {
@@ -838,6 +844,10 @@ h4 {
     em;
     font-style: italic;
     font-weight: bold;
+}
+
+.row.row-bg{
+    background-color : rgba(165,147,99,.7);
 }
 
 @media (max-width: 1024px) {
@@ -961,7 +971,7 @@ h4 {
         background: rgba(0, 0, 0, .8);
     }
     #hero-bloc .navbar .nav a {
-        color: rgba(255, 255, 255, .6);
+        color: #000;
     }
     .hero {
         padding: 50px 0;

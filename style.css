@@ -703,6 +703,11 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
+    
+.social span{
+    font-size: 1.4em!important;
+}
+
 
 h2 {
     font-size: 22px;
